@@ -1,0 +1,65 @@
+.card-title {
+    font-size: 15px;
+    height: 70px;
+    color: red;
+    overflow-y: auto;
+    text-align: justify;
+    /* font-family: ; */
+}
+
+.card-title::-webkit-scrollbar {
+    display: none;
+}
+
+.source p {
+    font-size: 14px;
+    margin-bottom: -10px;
+
+
+}
+
+.card-text {
+    font-size: 14px;
+    text-align: justify;
+    height: 120px;
+    overflow-y: auto;
+}
+
+.card-text::-webkit-scrollbar {
+    display: none;
+}
+
+/* */
+.dropdown-item:hover {
+    background-color: limegreen;
+
+
+}
+
+.jamura {
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 0px #888888;
+}
+
+.infinite {
+    overflow-x: hidden !important;
+}
+
+.nm {
+    font-weight:bold;
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem );
+    background: linear-gradient(45deg, rgba(205,19,19,0.9505376385104272) 15%, rgba(13,218,72,1) 32%, rgba(6,193,230,1) 65%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-toggler{
+    background-color: gray;
+}
+.foot-content{
+    
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem );
+    background: linear-gradient(45deg, rgba(205,19,19,0.9505376385104272) 15%, rgba(13,218,72,1) 32%, rgba(6,193,230,1) 65%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
