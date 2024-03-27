@@ -43,7 +43,6 @@ export default function Home(props) {
         }
     }
 
-    // useEffect hook hume chaiye site full form krne ke liye..
     useEffect(() => {
         if (props.search === "")
             getAPIData(props.q)
